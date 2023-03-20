@@ -4,3 +4,9 @@ eureka:
     register-with-eureka: false
 server:
   port: 8761
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8888
+  application:
+    name: ms-discovery-server
